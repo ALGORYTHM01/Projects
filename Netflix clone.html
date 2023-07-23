@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Clone</title>
+  <style>
+    /* CSS styles for the Netflix homepage */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #141414;
+      color: #fff;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+      color: #e50914;
+    }
+    
+    /* Main content styles */
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    
+    /* Flexbox container for each set of four movies */
+    .set-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    /* Movie categories styles */
+    .category {
+      width: 200px;
+      padding: 20px;
+      background-color: #1a1a1a;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    
+    .category:hover {
+      transform: scale(1.05);
+    }
+    
+    .category img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .category h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #fff;
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    footer p {
+      margin: 0;
+      color: #8c8c8c;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Netflix</h1>
+  </header>
+  
+  <div class="content">
+    <div class="set-container">
+        <div class="category">
+            <img src="https://cdn.animenewsnetwork.com/thumbnails/max700x700/cms/news.6/196392/jjk_visual.jpg" alt="Movie 1">
+            <h3>Jujutsu Kaisen</h3>
+          </div>
+          
+          <div class="category">
+            <img src="https://movies.universalpictures.com/media/opr-tsr1sheet3-look2-rgb-3-1-1-64545c0d15f1e-1.jpg" alt="Oppenheimer">
+            <h3>Oppenheimer</h3>
+          </div>
+          
+          <div class="category">
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2023/06/French-Film-Poster-Barbie-Warner-Bros..jpg?w=999" alt="Barbie">
+            <h3>Barbie</h3>
+          </div>
+          
+          <div class="category">
+            <img src="https://m.media-amazon.com/images/I/51TbOaoGxhL.jpg" alt="The Witcher">
+            <h3>The Witcher</h3>
+          </div>  
+    </div>
+    <div class="set-container">
+        <div class="category">
+            <img src="https://www.postergully.com/cdn/shop/products/LowRes_1Friends_1024x1024.jpg?v=1678204822" alt="wonka">
+            <h3>F.R.I.E.N.D.S</h3>
+          </div>
+        
+        <div class="category">
+          <img src="https://m.media-amazon.com/images/M/MV5BNzJiZGRkMDgtZWFlOS00MWRhLThhNTEtMjljZTJjYTljYTBjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" alt="Movie 6">
+          <h3>Wonka</h3>
+        </div>
+        
+        <div class="category">
+          <img src="https://cdn.cinematerial.com/p/297x/npyfi8vj/john-wick-chapter-4-swiss-movie-poster-md.jpg?v=1678582234" alt="Movie 7">
+          <h3>John Wick: Chapter 4</h3>
+        </div>
+        
+        <div class="category">
+          <img src="https://m.media-amazon.com/images/M/MV5BNGVkNDc3NjUtNTY5ZS00ZmE0LWE3YzctMDk2OTRlNTdiZWQwXkEyXkFqcGdeQXVyMTU3NDg0OTgx._V1_.jpg" alt="Movie 8">
+          <h3>Suzume</h3>
+        </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Simple Netflix Clone</p>
+  </footer>
+</body>
+</html>
