@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+ <style>
+    /* Reset default styles */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+#about h2,
+#portfolio h2,
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#about p,
+#portfolio p,
+#contact p {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+}
+
+#portfolio .project {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+#portfolio .project:hover {
+  transform: translateY(-5px);
+}
+
+#portfolio .project img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+ </style>
+</head>
+<body>
+  <header>
+    <h1>Debashish Jena</h1>
+    <h3>Student | Aspiring Software and Web Developer</h3>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello, I'm a passionate student interested in web development and design. I love creating user-friendly and visually appealing websites.
+        I am also learning Java,Python and Mysql. I am a third year student at <a href="https://www.soa.ac.in/">SOA Universty.</a>
+    </p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <img src="https://lh3.googleusercontent.com/pw/AIL4fc9nECj85mFsVwAmjanemfCEALA6E9kyUquoaYvKQjuBh8RuaVR75VeLBcOrfmO5rc7t3OlOZ5rbi2-tuLfpDMxa16hsjruXl3B46BXK2BdIaXCA8xDghwuwyuZBqYt7qL87tDr--zWrGZbFj-N81YZdkcuYSznr5EfgtRuO3l4-HR0sVZAfQ4FFMihhpVOUDqiyV6nhwUy3dmzocwHUgLYmjdzQvqyiG1uEFl1f-7otBzDj6hD_AtMkwsJYNOFDx3YiYqFIq10O76W9dFjWFF_wSBhFSQmcx1nSs_a87Y6IDuGW-xIPperv1K5Hc4Y56mcK3hsOiabt_f1DYrHwUECL37Yt75Na54XLFCZZNWgs_iIvYKB_i3VIXKPFmO-gsPiXNKS1ocL7LAw4Uv5bjuwSk-WnzjFZ0wf7_RCHWi4JQJlaNvgnMVziZ0ED0zLTdohaySC3mF4udsPa7jiLU8pbH_5r4KEepWQ1hLQWKbd9EGXoEREENuRfLZkxfgBo78c7aadaBLhh-K510ZenbLMXZDWOnYp0Cu8h5TV2YeDhdeIgvSTmk4TCfoy53-BfA6Ah70_NV0H335BAWaqO3tNVfIoF9Od9SWy-534lc3URpPTWXpZwvFgqpCcTeRTF3OHLg0fIxRr891fXP67YHU_unLPmCNKhOORK8ygwnZ38Y8IlPYSUC1oCcif6L3oyYJKbL36_eG8MAyR-8pLceLQu-pfbQBHYUFX8P866yqVziqIjidGCvmxgKe3IQ1NW6UaNhGzeTNh3M1Cd8lHaUV4sqydaD9TMPPmY1R4WWCByx8-GCURHOD1MlMhKT1sAmNMUOxqyDpAGlUW21C5Q3IdjaDTsDqEPxQGtTZy8d5C7DLMftKz-SD_NwtiM4AwbMFIHV3aIneSrc9sVxPuKwosRmw=w733-h812-s-no?authuser=0" alt="Project 1">
+      <h3>Temperature Converter</h3>
+      <p>Just a simple site to convert different temperature measuring units to the others.</p>
+    </div>
+
+    <div class="project">
+      <img src="https://lh3.googleusercontent.com/pw/AIL4fc_-_a9-T0HT0iuu8-WOdcxFkgHeiEQWPHcpthDV8_gjbh3hPWZ1zSDTHJAXzOmGvDhVhF6gZWt4dpY91_0M4hJVycFbfo9q3-nnv1zfovrZDoGSJDy3Jxepo7ixDSvK2NHBdnz5QDl4xZ-3Fj3-Oc2qwRb7ysPMEuey8hjRvHfua2VXSj_S19pnnfM4p7imv6lmBIEZ7z__X2cxzw5rWxF2OZD5AOY51_7GM6FDPdLqJ84gzGXsEM5SpiJhmSA3p_YhDDZ2-1w7NrNkfapP7zP9P8oRehizs3iKiKEH2RvQepxgrKdjT8mZFi_VHm01AVguTd_NiED4fTrkVonSj-F088WYmN-W_ZKLcMD-xUyn0kKw2GjxDSk4jdPO4masE0ryUoYa23JKjJdBuPBf11DceeESVdDlCV8VWBFPJiKAHiOBZDJIkf1x_uenXPbL_ijLSc9pOhxno4_mLHs4zhC52T-tHBDuPc0kiQ_5mONfC_-nLs9qpK4IbpZJAFSaBNZQWQs6EMt3ybwQzXJMmt8MG7psmZMMQ9uIyb_Xo-UQPdT6mTYfuCF4g-sOQ8_H7T8jZhvq_KjJy34lcLqBYAM661uw5A9XmWSwuF4byPLeowXpSqfFz68JRj3vDJ6vwr48uWjOvsrIbd1CqLcmHCWfq9CUtmVtS4hxmKM4llKkOfh-89aqFwksXh07KnN1MbPzoX7vf6RVbvssYXhtkY-lXYTqgvRi_HgQ9y5-2r4s2_aHJFRje3bpGOiGXkAfn1zI1QsgH_pdkB1Q2QhVF1-GXVMbrdYWQujVhzOypAzqO7smWQsbnyZBwwXKnS8CUjgglPlpq0b4EHA7p9M2oc10t0Ul_8ZynLKC0hbiWFWBJipzaPy0xIi3k-A7Fg9kTObKrqSStMcwQfCck_0dUIMXvg=w1842-h977-s-no?authuser=0" alt="Project 2">
+      <h3>Netflix clone</h3>
+      <p>A simple Netflix clone having the same type of homepage</p>
+    </div>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch with me, please email me at <a href="mailto:debashishjena.19@gmail.com">Gmail</a>.</p>
+    <p>My Github <a href="https://github.com/ALGORYTHM01">Github</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
